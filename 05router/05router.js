@@ -10,7 +10,7 @@ var server = http.createServer(function(req,res){
 
 	//正则表达式来判断此时的地址
 	// var reg = //;
-	res.writeHead(200,{"contentType":"text/html;charset=UTF8"});
+	res.writeHead(200,{"content-Type":"text/html;charset=UTF8"});
 
 	//substr函数来判断此时的开头
 	if (userurl.substr(0,9)=="/student/") {
